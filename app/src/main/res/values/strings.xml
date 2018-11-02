@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_title">BMI計算機</string>
+    <string name="bodyHeight">身高</string>
+    <string name="DefualtbodyHeight">170</string>
+    <string name="bodyWeight">體重</string>
+    <string name="DefualtbodyWeight">60</string>
+    <string name="Calcultion">計算</string>
+    <string name="tv_BMI">TextView</string>
+    <string name="title_activity_author">AuthorActivity</string>
+    <string name="name">姓名：史睿恩</string>
+    <string name="number">學號：F74564012</string>
+    <string name="Author_info">作者資訊</string>
+</resources>

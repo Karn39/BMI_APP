@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_bodyHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bodyHeight" />
+
+        <EditText
+            android:id="@+id/et_bodyHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/bodyHeight"
+            android:inputType="number"
+            android:text="@string/DefualtbodyHeight" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_bodyWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bodyWeight" />
+
+        <EditText
+            android:id="@+id/et_bodyWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/bodyWeight"
+            android:inputType="textPersonName|number"
+            android:text="@string/DefualtbodyWeight" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_cal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cal_Onclick"
+        android:text="@string/Calcultion" />
+
+    <TextView
+        android:id="@+id/tv_BMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/Author_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Author_Onclick"
+        android:text="@string/Author_info" />
+</LinearLayout>
